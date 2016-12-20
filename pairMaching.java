@@ -1,3 +1,8 @@
+/*
+	program where given an array A[] of n numbers and another number x, 
+	determines whether or not there exist two elements in S whose sum is exactly x. 
+*/
+
 public class pairMatching {
 
 	private static final int MAX = 100;
@@ -15,6 +20,8 @@ public class pairMatching {
 		}
 	}
 	public static void main(String[] args) {
+
+		/* Simple array of A[] and n*/
 		int A[] = {1, 4, 5, 6, 8, 3};
 		int n = 7;
 		printPairs(A,n);
