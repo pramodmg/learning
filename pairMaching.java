@@ -12,7 +12,6 @@ public class pairMatching {
 		
 		for(int i=0; i<arr.length;++i) {
 			int temp = sum - arr[i];
-			System.out.println("Arr value of the i " + arr[i]);
 			if ( temp >= 0 && binmap[temp]) {
 				System.out.println("Pair with given sum " + sum + " is ( " + arr[i] + ", " + temp + " )");
 			}
